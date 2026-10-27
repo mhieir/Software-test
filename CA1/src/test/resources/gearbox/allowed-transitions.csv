@@ -1,0 +1,12 @@
+currentGear,targetGear,speedKmh
+# P -> R only below the 5 km/h reverse-entry limit (on-point and off-point of the boundary)
+P,R,0.0
+P,R,4.9
+# R <-> D only when the vehicle is completely stopped
+R,D,0.0
+D,R,0.0
+# R -> N and N -> D do not depend on speed (one stationary and one moving representative each)
+R,N,0.0
+R,N,40.0
+N,D,0.0
+N,D,40.0
