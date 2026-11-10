@@ -32,9 +32,6 @@ public class Engine {
         running = false;
     }
 
-    /**
-     * Simulates an engine failure during operation.
-     */
     public void fail() {
         operational = false;
         running = false;
